@@ -1,0 +1,4 @@
+<services>
+    <service id="symfony_diplom.theme_nature_service" class="SymfonyDiplom\ThemeNatureServiceBundle\ThemeProgrammingService" public="true"></service>
+    <service id="SymfonyDiplom\ThemeNatureServiceBundle\ThemeProgrammingService" alias="symfony_diplom.theme_nature_service" public="false"></service>
+</services>

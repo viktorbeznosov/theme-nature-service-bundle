@@ -1,0 +1,20 @@
+{
+    "name": "viktorbeznosov/theme-nature-service-bundle",
+    "description": "Статья о природе",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "viktorbeznosov",
+            "email": "viktorbeznosov@mail.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SymfonyDiplom\\ThemeNatureServiceBundle\\": "src/"
+        }
+    }
+}
